@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="En">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Ryu_Portfolio</title>
+      <link rel="stylesheet" href="./css/common.css" />
+      <link rel="stylesheet" href="./css/index.css" />
+      <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+      <script src="https://cdn.jsdelivr.net/npm/vue@2.7.11"></script>
+  </head>
+  <div id="app">
+   <header-template></header-template>
+  </div>
+  <body>
+      <main> 
+         <div class="hight"></div>
+         <div class="bg_img">
+            <div class="bg_img-text">
+               <div class="title">
+                  <h1 class="name">RYU GOTO</h1>
+               </div>
+            </div>
+            <!-- <p>If you keep to try…, your efforts will pay off<p> -->
+            <p>Let me introduce my art gallery</p>
+        </div>
+        <content>
+         <div class="tab">
+            <button class="tablinks active" onclick="openTab(event, 'photo')">Photo</button>
+            <button class="tablinks" onclick="openTab(event, 'design')">Illustration</button>
+         </div>
+         <div id="photo" class="tabcontent" style="display: block;">
+            <div class="content_tittle">
+               <h2>Photo</h2>
+            </div>
+   
+            <div class="gallery">
+               <div class="row">
+                  <div class="col">
+                     <img src="./img/Amalfi.JPG" alt="Photo 1">
+                     <div class="overlay">
+                        <p class="description">Description of Photo 1</p>
+                     </div>
+                  </div>
+                  <div class="col">
+                     <img src="./img/Venice.JPG" alt="Photo 2">
+                     <div class="overlay">
+                        <p class="description">Description of Photo 2</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col">
+                     <img src="./img/victoria.jpg" alt="Photo 3">
+                     <div class="overlay">
+                        <p class="description">Description of Photo 3</p>
+                     </div>
+                  </div>
+                  <div class="col">
+                     <img src="./img/asakusa.JPG" alt="Photo 4">
+                     <div class="overlay">
+                        <p class="description">Description of Photo 4</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col portrait">
+                     <img src="./img/tokyo.jpg" alt="Photo 3">
+                     <div class="overlay">
+                        <p class="description">Description of Photo 3</p>
+                     </div>
+                  </div>
+                  <div class="col portrait">
+                     <img src="./img/sebu.jpg" alt="Photo 4">
+                     <div class="overlay">
+                        <p class="description">Description of Photo 4</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col">
+                     <img src="./img/Venice2.JPG" alt="Photo 3">
+                     <div class="overlay">
+                        <p class="description">Description of Photo 3</p>
+                     </div>
+                  </div>
+                  <div class="col">
+                     <img src="./img/nigata.JPG" alt="Photo 4">
+                     <div class="overlay">
+                        <p class="description">Description of Photo 4</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+          
+         <div id="design" class="tabcontent">
+            <div class="content_tittle">
+               <h2>illustration</h2>
+            </div>
+   
+            <div class="gallery">
+               <div class="row">
+                  <div class="col">
+                     <img src="./img/Amalfi.JPG" alt="Photo 1">
+                     <div class="overlay">
+                        <p class="description">Description of Photo 1</p>
+                     </div>
+                  </div>
+                  <div class="col">
+                     <img src="./img/Venice.JPG" alt="Photo 2">
+                     <div class="overlay">
+                        <p class="description">Description of Photo 2</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col">
+                     <img src="./img/victoria.jpg" alt="Photo 3">
+                     <div class="overlay">
+                        <p class="description">Description of Photo 3</p>
+                     </div>
+                  </div>
+                  <div class="col">
+                     <img src="./img/asakusa.JPG" alt="Photo 4">
+                     <div class="overlay">
+                        <p class="description">Description of Photo 4</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col">
+                     <img src="./img/Venice2.JPG" alt="Photo 3">
+                     <div class="overlay">
+                        <p class="description">Description of Photo 3</p>
+                     </div>
+                  </div>
+                  <div class="col">
+                     <img src="./img/nigata.JPG" alt="Photo 4">
+                     <div class="overlay">
+                        <p class="description">Description of Photo 4</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         
+      </content>
+      </main>
+   <footer>
+      <small>
+         Copyright © 2023 Ryu Goto
+      </small>
+   </footer>
+      <script src="js/index.js"></script>
+      <script src="js/component/common.js"></script>
+  </body>
+</html>
