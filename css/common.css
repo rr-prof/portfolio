@@ -74,6 +74,15 @@ main {
    min-height: 100vh;
 }
 
+.content_tittle>h2{
+   text-align: center;
+   line-height: 1.0;
+   font-weight: 100;
+   font-size: 4rem;
+   letter-spacing: 0.05em;
+   
+}
+
 
 
 
