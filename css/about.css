@@ -1,0 +1,16 @@
+img{
+   width:100%;
+}
+img {
+   vertical-align: middle;
+ }
+
+@media screen and (max-width: 768px) {
+   .bg_img {
+      padding: 50px;
+   }
+   .name{
+      font-size: 22px;
+   }
+}
+
