@@ -4,13 +4,13 @@ Vue.component('header-template', {
       <nav id="mainnavi">
          <!-- <div class="icon"></div> -->
          <div class="sns">
-            <a href="https://twitter.com/"><i class="fab fa-behance"></i></a>
+            <a href="https://www.behance.net/ryugoto" target="_blank"><i class="fab fa-behance"></i></a>
          </div>
          <div class="sns">
-            <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+            <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
          </div>
          <div class="sns">
-            <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i>
+            <a href="https://www.instagram.com/103_ryu/" target="_blank"><i class="fab fa-instagram"></i>
             </a>
          </div>
             
